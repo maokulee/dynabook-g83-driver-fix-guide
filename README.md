@@ -9,6 +9,14 @@
 
 > ⚠️ **隐私提醒**：本教程所有 `config.plist` 序列号、MLB、ROM、UUID 均为脱敏占位值（`XXXXXXXX`）。你自己的 EFI 里是真实值，**上传/分享前务必脱敏**，切勿把带真实序列号的 `config.plist` 提交到公开仓库。
 
+## 📦 现成 EFI 包下载
+
+完整 EFI 包（已升级 WhateverXe 0.8.2 + AMFIPass 1.4.1 Mod，**三码已脱敏**）可从 Releases 下载：
+
+**[下载 EFI-G83HU-sanitized.zip（58MB）](https://github.com/maokulee/dynabook-g83-driver-fix-guide/releases/download/efi-v1/EFI-G83HU-sanitized.zip)** · [Release 页面](https://github.com/maokulee/dynabook-g83-driver-fix-guide/releases/tag/efi-v1)
+
+> 🔑 **刷入前必做**：包内 `EFI/OC/config.plist` 的 `SystemSerialNumber`、`MLB`、`ROM`、`SystemUUID` 均为占位值。请用 ProperTree / OpenCore Configurator 填回**你自己的真实三码**（从原机 EFI 或 Windows 下获取），否则 iMessage / FaceTime / App Store 等依赖序列号的服务会异常。若你就是用这台 G83 的原始机器，直接从原 EFI 恢复这三码即可。
+
 ---
 
 ## 一、检查要点总结（先看结论）
